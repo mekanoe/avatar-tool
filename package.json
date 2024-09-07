@@ -1,0 +1,12 @@
+{
+  "name": "avatar-tool",
+  "version": "0.0.0",
+  "private": true,
+  "module": "index.js",
+  "scripts": {
+    "build": "node generate.mjs > groups.json"
+  },
+  "dependencies": {
+    "glob": "^11.0.0"
+  }
+}
